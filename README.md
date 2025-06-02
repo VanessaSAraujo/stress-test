@@ -126,6 +126,35 @@ A mediana de 1313 ms indica que 50% das requisições foram respondidas em até 
 
 ---
 
+## Resumo Técnico da Atividade
+
+### Tempo de Resposta
+- **Tempo Médio**: 3777 ms
+- **Tempo Mínimo**: 1036 ms
+- **Tempo Máximo**: 20046 ms
+- **Mediana**: 1313 ms
+- **Percentil 90**: 8432 ms
+- **Percentil 95**: 19850 ms
+- **Percentil 99**: 19979 ms
+
+### Taxa de Transferência (Throughput)
+- **Throughput**: 18,9 requisições por segundo
+- **Recebimento**: 84,75 KB/s
+- **Envio**: 2,28 KB/s
+
+### Erro Percentual
+- **Erro Total**: 6,16% das requisições apresentaram falhas
+
+### Conexões Ativas
+- **Quantidade ativa durante o teste**: Variação observada no gráfico “Active Threads Over Time”
+- **Indicador de carga simultânea**: Utilizado o plugin jp@gc - Active Threads Over Time
+
+### Pico de Conexões
+- **Pico observado**: 135 conexões simultâneas
+- **Momento de maior carga**: Aproximadamente aos 50 segundos de teste
+
+---
+
 ## Análise
 
 A API, desenvolvida com Flask, apresentou respostas estáveis em termos médios, mas demonstrou **limitações sob picos de carga**, como:
