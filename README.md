@@ -1,10 +1,13 @@
 
 # Teste de Performance da API ViaCEP com Apache JMeter
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+![LinkedIn](https://img.shields.io/badge/-Apache_Jmeter-D22128?style=for-the-badge&logo=linkedin&logoColor=F04178)
 
 Este projeto tem como objetivo realizar testes de desempenho em uma API REST de consulta ao [ViaCEP](https://viacep.com.br/), criada com **Python e Flask**, utilizando o **Apache JMeter** para medir métricas como tempo de resposta, taxa de transferência, porcentagem de erro, conexões ativas e pico de conexões.
 
 ---
-## 🔧 Ferramentas Utilizadas
+## Ferramentas Utilizadas
 
 - **Python 3.x**
 - **Flask**
